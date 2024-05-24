@@ -1,5 +1,9 @@
 # Apache Kafka
 
+## About me 
+
+**[LinkedIn](https://linkedin.com/in/naveen-pn) :**
+
 **Prerequisite**
 
 1. Fundamentals of Java Programming

@@ -1,10 +1,10 @@
-package org.citibank.analytics.partitioning_mechanism;
+package org.citibank.analytics.producer_api.partitioning_mechanism;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringSerializer;
-import org.citibank.analytics.AppConfigs;
+import org.citibank.analytics.producer_api.AppConfigs;
 
 import java.util.Properties;
 import java.util.Scanner;

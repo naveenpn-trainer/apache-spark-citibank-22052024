@@ -1,4 +1,4 @@
-package org.citibank.analytics.partitioning_mechanism;
+package org.citibank.analytics.producer_api.partitioning_mechanism;
 
 import org.apache.kafka.clients.producer.Partitioner;
 import org.apache.kafka.common.Cluster;

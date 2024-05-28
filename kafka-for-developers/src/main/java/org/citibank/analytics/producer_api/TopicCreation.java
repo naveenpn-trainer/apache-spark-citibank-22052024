@@ -1,4 +1,4 @@
-package org.citibank.analytics;
+package org.citibank.analytics.producer_api;
 
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.AdminClientConfig;

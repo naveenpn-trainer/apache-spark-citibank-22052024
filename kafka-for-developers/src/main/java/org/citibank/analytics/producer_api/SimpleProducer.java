@@ -1,4 +1,4 @@
-package org.citibank.analytics;
+package org.citibank.analytics.producer_api;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -21,13 +21,13 @@ public class SimpleProducer {
         KafkaProducer<Integer,String> producer = new KafkaProducer<>(properties);
 
         // Step 03 : Create ProducerRecord object
-        for(int i=0;i<AppConfigs.NUM_EVENTS;i++) {
+//        for(int i=0;i<AppConfigs.NUM_EVENTS;i++) {
             System.out.println("Sending Message");
-            ProducerRecord producerRecord = new ProducerRecord(AppConfigs.TOPIC_SIMPLE_PRODUCER_CONSUMER, "Message"+i);
+            ProducerRecord producerRecord = new ProducerRecord(AppConfigs.TOPIC_SIMPLE_PRODUCER_CONSUMER, "Message");
             producer.send(producerRecord);
-            Thread.sleep(1000);
+//            Thread.sleep(1000);
             System.out.println("Sleeping for 1 sec");
-        }
+//        }
         producer.close();
 
     }

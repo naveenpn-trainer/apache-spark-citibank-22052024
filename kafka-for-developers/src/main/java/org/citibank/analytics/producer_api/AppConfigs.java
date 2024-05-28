@@ -1,4 +1,4 @@
-package org.citibank.analytics;
+package org.citibank.analytics.producer_api;
 
 public interface AppConfigs {
     String TOPIC_SIMPLE_PRODUCER_CONSUMER = "simple-producer-consumer";
